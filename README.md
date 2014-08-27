@@ -1,4 +1,4 @@
-# Equalizer
+# Equalizer[![Build Status](https://travis-ci.org/mhib/equalizer.svg)](https://travis-ci.org/mhib/equalizer)
 
 My version of [equalizer gem](https://github.com/dkubb/equalizer/)
 
@@ -6,7 +6,8 @@ My version of [equalizer gem](https://github.com/dkubb/equalizer/)
 
 Download gem file from this repo and run
 ```
-gem install ./[gem-name]
+gem build equalizer.gem_spec
+gem install ./[gem_name]
 ```
 ## Usage
 ```ruby

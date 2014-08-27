@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["mhbartkowiak@gmail.com"]
   spec.summary       = %q{My version of equalizer gem}
   #spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
   spec.license       = "MIT"
+  spec.homepage      = ""
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
