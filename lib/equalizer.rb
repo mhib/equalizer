@@ -42,9 +42,7 @@ module Equalizer
   # Hash method return hash of array of class name and attributes
   def build_hash(args)
     define_method(:hash) do
-      args.each_with_object([self.class]) do |arg, obj|
-        obj << instance_variable_get("@#{arg}")
-      end.hash
+      args.map { |arg| instance_variable_get("@#{arg}") }.unshift(self.class).hash
     end
   end
 end
