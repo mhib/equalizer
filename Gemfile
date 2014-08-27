@@ -3,4 +3,4 @@ source 'https://rubygems.org'
 gemspec
 
 # coverage
-gem 'coveralls', require: false
+gem 'coveralls', :require => false
