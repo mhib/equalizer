@@ -1,12 +1,21 @@
 require "equalizer/version"
 
 module Equalizer
+  # Method that is called on extendend class
+  # It calls methods that defines equality methods
+  #
+  # == Parameters:
+  # args::
+  #   Arguments passed from class body
   def equalize(*args)
     build_eq(args)
     build_eql_alias
     build_hash(args)
   end
 
+  private
+
+  # Defines == method
   def build_eq(args)
     define_method(:==) do |other|
       flag = true # rbx
@@ -21,12 +30,16 @@ module Equalizer
     end
   end
 
+  # Defines eql? as aliast to ==
   def build_eql_alias
     instance_eval do
       alias_method :eql?, :==
     end
   end
 
+  # Defines hash method
+  #
+  # Hash method return hash of array of class name and attributes
   def build_hash(args)
     define_method(:hash) do
       args.each_with_object([self.class]) do |arg, obj|
