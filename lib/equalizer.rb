@@ -9,13 +9,15 @@ module Equalizer
 
   def build_eq(args)
     define_method(:==) do |other|
+      flag = true # rbx
       args.each do |a|
         str = "@#{a}" # Do not do interpolation second time
         unless instance_variable_get(str) == other.instance_variable_get(str)
-          return false
+          flag = false
+          break
         end
       end
-      return true
+      return flag
     end
   end
 
