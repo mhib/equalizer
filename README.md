@@ -1,4 +1,4 @@
-# Equalizer [![Build Status](https://travis-ci.org/mhib/equalizer.svg)](https://travis-ci.org/mhib/equalizer) [![Coverage Status](https://coveralls.io/repos/mhib/equalizer/badge.png?branch=master)](https://coveralls.io/r/mhib/equalizer?branch=master) [![Code Climate](https://codeclimate.com/github/mhib/equalizer/badges/gpa.svg)](https://codeclimate.com/github/mhib/equalizer)[![Dependency Status](https://gemnasium.com/mhib/equalizer.svg)](https://gemnasium.com/mhib/equalizer)
+# Equalizer [![Build Status](https://travis-ci.org/mhib/equalizer.svg)](https://travis-ci.org/mhib/equalizer) [![Coverage Status](https://coveralls.io/repos/mhib/equalizer/badge.png?branch=master)](https://coveralls.io/r/mhib/equalizer?branch=master) [![Code Climate](https://codeclimate.com/github/mhib/equalizer/badges/gpa.svg)](https://codeclimate.com/github/mhib/equalizer) [![Dependency Status](https://gemnasium.com/mhib/equalizer.svg)](https://gemnasium.com/mhib/equalizer) [![Inline docs](http://inch-ci.org/github/mhib/equalizer.png?branch=master)](http://inch-ci.org/github/mhib/equalizer)
 
 My version of [equalizer gem](https://github.com/dkubb/equalizer/)
 

@@ -1,5 +1,6 @@
 require "equalizer/version"
 
+# Defines equality methods
 module Equalizer
   # Method that is called on extendend class
   # It calls methods that defines equality methods
