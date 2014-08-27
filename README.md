@@ -1,4 +1,4 @@
-# Equalizer[![Build Status](https://travis-ci.org/mhib/equalizer.svg)](https://travis-ci.org/mhib/equalizer)
+# Equalizer [![Build Status](https://travis-ci.org/mhib/equalizer.svg)](https://travis-ci.org/mhib/equalizer) [![Coverage Status](https://coveralls.io/repos/mhib/equalizer/badge.png)](https://coveralls.io/r/mhib/equalizer) [![Code Climate](https://codeclimate.com/github/mhib/equalizer/badges/gpa.svg)](https://codeclimate.com/github/mhib/equalizer)
 
 My version of [equalizer gem](https://github.com/dkubb/equalizer/)
 

@@ -1,5 +1,7 @@
 require 'rspec'
 require 'equalizer'
+require 'coveralls'
+Coveralls.wear!
 
 # Class definitions for tests
 
