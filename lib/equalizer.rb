@@ -33,7 +33,7 @@ module Equalizer
 
   # Defines eql? as aliast to ==
   def build_eql_alias
-    instance_eval do
+    class_eval do
       alias_method :eql?, :==
     end
   end
